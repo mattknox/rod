@@ -1,0 +1,4 @@
+This is intended to be a simpler replacement for piston.  It grabs source from a remote repository and dumps it in the specified location, and creates a file for its own use that notes what version was pulled.  
+
+I estimate that I can do this in about 300-500 lines of code, which should be doable in a day or two.  
+
