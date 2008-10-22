@@ -1,0 +1,55 @@
+= rod
+
+* FIX (url)
+
+== DESCRIPTION:
+This is intended to be a simpler replacement for piston.  It grabs source from a remote repository and dumps it in the specified location, and creates a file for its own use that notes what version was pulled.  
+
+== FEATURES/PROBLEMS:
+
+I estimate that I can do this in about 300-500 lines of code, which should be doable in a day or two.  
+
+The commandset should be:
+
+rod install url [dir]  # install whatever is at url into either . or dir
+rod update  path  [revision] # update path to head or revision
+rod diff path [revision]
+# there is no rod remove path, because it doesn't interact with VCS.  It just lets you kill it.  
+
+
+== SYNOPSIS:
+
+  FIX (code sample of usage)
+
+== REQUIREMENTS:
+
+* FIX (list of requirements)
+
+== INSTALL:
+
+* FIX (sudo gem install, anything else)
+
+== LICENSE:
+
+(The MIT License)
+
+Copyright (c) 2008 FIX
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
