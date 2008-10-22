@@ -2,3 +2,9 @@ This is intended to be a simpler replacement for piston.  It grabs source from a
 
 I estimate that I can do this in about 300-500 lines of code, which should be doable in a day or two.  
 
+The commandset should be:
+
+rod install url [dir]  # install whatever is at url into either . or dir
+rod update  path  [revision] # update path to head or revision
+rod diff path [revision]
+# there is no rod remove path, because it doesn't interact with VCS.  It just lets you kill it.  
