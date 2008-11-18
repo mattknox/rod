@@ -7,6 +7,9 @@ This is intended to be a simpler replacement for piston.  It grabs source from a
 git-archive --format=tar --remote=git://gitorious.org/klisp-scripting-engine/mainline.git this is about the functionality I wanted.
 
 
+should make a .directory, with a file that has the version it checked out, and then a checkout directory inside that that gets exported out to the enclosing dir.  
+
+
 == FEATURES/PROBLEMS:
 
 I estimate that I can do this in about 300-500 lines of code, which should be doable in a day or two.  
@@ -16,7 +19,7 @@ The commandset should be:
 rod install url [dir]  # install whatever is at url into either . or dir
 rod update  path  [revision] # update path to head or revision
 rod diff path [revision]
-# there is no rod remove path, because it doesn't interact with VCS.  It just lets you kill it.  
+# there is no rod remove, because it doesn't interact with VCS.  It just lets you kill it.  
 
 
 == SYNOPSIS:
