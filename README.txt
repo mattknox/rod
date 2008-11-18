@@ -4,6 +4,8 @@
 
 == DESCRIPTION:
 This is intended to be a simpler replacement for piston.  It grabs source from a remote repository and dumps it in the specified location, and creates a file for its own use that notes what version was pulled.  
+git-archive --format=tar --remote=git://gitorious.org/klisp-scripting-engine/mainline.git this is about the functionality I wanted.
+
 
 == FEATURES/PROBLEMS:
 
